@@ -1,4 +1,4 @@
-## 常用Shell命令
+### 常用Shell命令
 
 ```bash
 1. 查看可更新软件列表
@@ -26,6 +26,6 @@ export PYTHONPATH=$(echo $PYTHONPATH | sed -e 's|:/home/tong/home/tong/moveir_ws
 sudo dpkg-query -l
 ```
 
-## ubuntu开机时进入tty界面
+### ubuntu开机时进入tty界面
 
     - Ctrl+Alt+F2
