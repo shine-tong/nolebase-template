@@ -1,7 +1,9 @@
+# Git 常用命令
+
 ### 1. 从目标仓库拉取代码
 
+克隆到本地仓库中的文件夹中包含一个.git隐藏文件夹用来标注仓库
 ```bash
-//克隆到本地仓库中的文件夹中包含一个.git隐藏文件夹用来标注仓库
 git clone https:<仓库地址>
 ```
 
@@ -19,8 +21,8 @@ git checkout master
 
 ### 4. 创建并切换到新分支
 
+可以使用git branch命令查看自己当前所在的分支
 ```bash
-//可以使用git branch命令查看自己当前所在的分支
 git checkout -b <branch_name>
 ```
 
@@ -40,15 +42,15 @@ git checkout <branch_name>
 
 ### 7. 直接复制指定分支到本地
 
+注意：复制过来的文件夹名称仍为仓库名称
 ```bash
-//注意：复制过来的文件夹名称仍为仓库名称
 git clone -b <branch_name> <respon_url>
 ```
 
 ### 8. 删除本地分支
 
+注意需要合并分支后才能使用该命令删除分支
 ```bash
-//注意需要合并分支后才能使用该命令删除分支
 git branch -d <branch_name>
 ```
 
